@@ -1,12 +1,12 @@
 
 //Account ID From Website
-var accountID  = 'b64f5599-2280-4976-8ff2-4ad3af21fc51'
+var accountID  = ''
 
 // Access Token to be generated
 var accessToken=''
 
 // Subscription Key
-var subscriptionKey = '508b9542f83c4f248928f37c832eeae1'
+var subscriptionKey = ''
 
 
 // Start the Video Upload to Azure Video Analyzer
