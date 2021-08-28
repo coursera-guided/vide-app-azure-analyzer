@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <hr />
+    <h1>Video Indexing App</h1>
+    <hr />
+    <div id="app" />
+    <h2>Please Choose a Video</h2>
+    <input id="videoupload" type="file" accept="video/*" />
+    <hr />
+    <button id="addVideo" onclick="uploadVideo()">Upload the Video</button>
+    <hr />
+    <div id="video"></div>
+    <div id="video-status"></div>
+    <hr />
+    <div id="jobid"></div>
+    <div id="status"></div>
+    </body>
+</html>
